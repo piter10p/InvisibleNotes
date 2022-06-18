@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InvisibleNotes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="InvisibleNotes" Height="450" Width="800"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        KeyDown="AnyKeyDown"
+        MouseWheel="MouseWheelMoved">
     <Grid>
-
+        <Label Name="NotesLabel">Test</Label>
     </Grid>
 </Window>
